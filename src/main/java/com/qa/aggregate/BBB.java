@@ -2,7 +2,11 @@ package com.qa.aggregate;
 
 public class BBB{
 
-    private AAA parent =new AAA();
+    private IAAA parent;
+
+    public BBB(IAAA theparent){
+        parent = theparent;
+    }
 
     public int foobar(){
 
