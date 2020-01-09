@@ -1,6 +1,6 @@
 package com.qa.aggregate;
 
-public abstract class AAA {
+public class AAA {
 
     private int x=7;
 
@@ -15,5 +15,7 @@ public abstract class AAA {
         return 3;
     }
 
-    public abstract void f1();
+    public void f1() {
+        System.out.println("Shouldn't be here ");
+    }
 }
